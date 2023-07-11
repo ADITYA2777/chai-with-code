@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img tag</title>
+</head>
+<body>
+    <!-- <img src="avengers.jpg"  width="200px" alt="no"> -->
+    <picture>
+        <source media="(min-width:650px)" srcset="avengers.jpg">
+        <source media="(min-width:450px)" srcset="avengers.jpg">
+        <!-- <img src="avengers.jpg" width="100px" alt=""> -->
+    </picture>
+    <!-- map genataor -->
+     <img src="avengers.jpg" width="400px" alt="">
+<map name="image-map">
+    <area  onclick="one()" target="" alt="" title="" href="" coords="901,604,484,814" shape="rect">
+    <area onclick="two ()" target="" alt="" title="" href="" coords="" shape="rect">
+    <script>
+        function one() {
+            alert("plesse se this img")
+        }
+        function two() {
+            alert("plesse 2 se this img")
+        }
+    </script>
+</body>
+</html>
