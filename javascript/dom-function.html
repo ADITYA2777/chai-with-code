@@ -10,6 +10,7 @@
         <li>javascript</li>
     </ul>
     <script>
+
         function Addlangframe(langName) {
          const li=document.createElement('li')
          li.innerHTML =`${langName}`
@@ -29,6 +30,11 @@
         addoptiLanguage("golane")
 
         // edit
+   const secondlag = document.querySelector('li:nth-child(2)')
+  const newliI = document.createElement('li');
+newLiI.textContent="adddddd"
+secondlag.replaceWith(newLiI)
+  
 
  const thirdlang = document.querySelector('li:nth-child(3)')
 //  thirdlang.innerHTML ='aditya'
